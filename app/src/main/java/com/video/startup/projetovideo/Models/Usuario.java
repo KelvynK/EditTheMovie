@@ -1,9 +1,5 @@
 package com.video.startup.projetovideo.Models;
 
-/**
- * Created by Diogo on 24/04/2017.
- */
-
 public class Usuario {
 
     private int id;

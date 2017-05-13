@@ -18,22 +18,6 @@ import java.io.Writer;
 public class Util {
 
 
-    public static String convertUsuariotoJSON(Usuario usuario){
-        JSONObject mainObject = new JSONObject();
-        try {
-            mainObject.put("login",usuario.getLogin());
-            mainObject.put("senha",usuario.getSenha());
-            mainObject.put("nome",usuario.getNome());
-            mainObject.put("email",usuario.getEmail());
-            mainObject.put("telefone",usuario.getTelefone());
-
-            return mainObject.toString();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
     public static String webToString(InputStream inputStream) {
         InputStream localStream = inputStream;
         String localString = "";
