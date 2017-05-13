@@ -3,7 +3,7 @@ package com.video.startup.projetovideo.Models;
 
 public class Empresa
 {
-
+    private boolean flag;
     private int       id;
     private String    nome_curto;
     private String    razao_social;
